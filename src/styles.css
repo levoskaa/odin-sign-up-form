@@ -1,6 +1,6 @@
 :root {
   --primary: hsl(92, 20%, 35%);
-  --error: #d47373;
+  --error: #c44040;
 }
 
 *,
@@ -153,6 +153,16 @@ section.content {
 
 .form-group input.error {
   border: 2px solid var(--error);
+}
+
+.password-error-msg {
+  color: var(--error);
+  font-size: 0.75rem;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
 }
 
 .action {
